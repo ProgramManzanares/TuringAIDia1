@@ -39,3 +39,7 @@ para manejar los metadatos correspondientes de cada archivo y despues mostrar lo
     console.info(`Detalles Técnicos: [Tipo: ${metadata.tipoMime}] [Tamaño: ${metadata.tamano}]`);
 
 Ademas de validaciones extras en caso de hubiera un error dentro de la subida de los archivos
+
+Para correr este archivo solo es necesario instalar npm jest para ejecutar las pruebas y despues ejecutar npm test para correrlas
+
+Si en caso no se pueden ejecutar, solo se debe copiar el archivo package.json para que lea el script
