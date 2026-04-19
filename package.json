@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@google-cloud/functions-framework": "^5.0.2"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  },
+
+  "scripts": {
+    "start": "npx @google-cloud/functions-framework --target=processFileMetadata",
+    "test": "jest" 
+  }
+}
