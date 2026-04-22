@@ -3,7 +3,7 @@ const functions = require('@google-cloud/functions-framework');
 const { GoogleAuth } = require('google-auth-library');
 
 // URL del Apps Script Web App
-const ScriptURL = 'https://script.google.com/macros/s/AKfycbzKIYAY7nhM8PCCBBF6U4J_LOvC05Hng_VJejd31GHak9huE-egfv1_pW0f2pUsa52q9w/exec';
+const ScriptURL = 'https://script.google.com/macros/s/AKfycbzKIYAY7nhM8PCCBBF6U4J_LOvC05Hng_VJejd31GHak9huE-egfv1_pW0f2pUsa52q9w/exec'; //Por temas de tiempp se hardcodea el URL del Apps Script Web App, pero en un entorno de producción se recomienda utilizar una variable de entorno para almacenar esta información de manera segura y facilitar la gestión de configuraciones entre diferentes entornos (desarrollo, staging, producción).
 
 // Autenticación Google
 const auth = new GoogleAuth();
